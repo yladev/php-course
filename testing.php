@@ -38,4 +38,16 @@ do {
     echo "Hello $k<br>";
     $k++; //increment
 } while ($k <= 10); // end condition, at least once
+
+echo "<hr>";
+
+// array (collection - multiple) Numeric Array
+$a = array(100,200,300,400,500,600,700,800,900, 0, 350, -1);
+
+sort($a);
+
+for ($index=0; $index<count($a); $index++) { 
+    echo $a[$index];
+    echo "<br>";
+}
 ?>
