@@ -6,10 +6,11 @@
     <title>Input Form</title>
 </head>
 <body>
-    <form action="array.php" method="post">
-        <input type="text" name="id">
-        <input type="password" name="pw">
-        <input type="submit" name="">
+    <!-- Method => GET or POST -->
+    <form action="process.php" method="post">
+        <input type="text" name="uname" placeholder="Username">
+        <input type="password" name="pw" placeholder="Password">
+        <input type="submit" name="submit" value="Login">
     </form>
 
 </body>
