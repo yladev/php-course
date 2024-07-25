@@ -11,5 +11,11 @@
         This is my Test Page.
     </body>
     <a href="index.php">Go to index</a>
+    <hr>
+    <?php
+    echo $_GET['uname']."<br>";
+    echo $_GET['id']."<br>";
+    echo $_GET['city']."<br>";
+    ?>
 </body>
 </html>

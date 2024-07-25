@@ -26,6 +26,6 @@
     ?>
 
     <hr>
-    <a href="test.php?uname=ayeaye">Go to Test</a>
+    <a href="test.php?uname=ayeaye&id=100&city=Yangon">Go to Test</a>
 </body>
 </html>
